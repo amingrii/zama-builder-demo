@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zama Builder Demo App</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    h1 { color: #333; }
+    input, button { font-size: 16px; padding: 5px; margin: 5px; }
+    #result { margin-top: 20px; font-size: 20px; color: #007bff; }
+    iframe { margin-top: 40px; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Zama Builder Demo App</h1>
+  <p>Enter a secret number to see private computation in action:</p>
+  <input type="number" id="secretNumber" placeholder="Enter number">
+  <button onclick="compute()">Compute</button>
+  
+  <div id="result"></div>
+
+  <h2>Demo Video</h2>
+  <iframe width="560" height="315" 
+          src="YOUR_VIDEO_LINK" 
+          title="Demo Video" allowfullscreen></iframe>
+
+  <script>
+    function compute() {
+      const input = Number(document.getElementById('secretNumber').value);
+      if(isNaN(input)) {
+        document.getElementById('result').innerText = "Please enter a valid number!";
+        return;
+      }
+      // Simulate private computation: multiply by 2
+      const output = input * 2;
+      document.getElementById('result').innerText = `Input: ${input} | Result: ${output}`;
+    }
+  </script>
+</body>
+</html>
