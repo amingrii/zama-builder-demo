@@ -16,4 +16,4 @@ A simple demo showing a secret number calculation.
   3. Navigate to the folder: `cd zama-builder-demo`
   4. Run the script: `node index.js`
 - Demo: See console output for input and result
-- Contact: GitHub handle: YOUR_USERNAME
+- Contact: GitHub handle: amingrii
