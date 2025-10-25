@@ -12,7 +12,7 @@ A simple demo showing a secret number calculation.
 - Architecture & tech stack: Node.js script, console output.
 - How to run locally:
   1. Install Node.js
-  2. Clone the repository: `git clone https://github.com/YOUR_USERNAME/zama-builder-demo.git`
+  2. Clone the repository: `git clone https://github.com/amingrii/zama-builder-demo.git`
   3. Navigate to the folder: `cd zama-builder-demo`
   4. Run the script: `node index.js`
 - Demo: See console output for input and result
